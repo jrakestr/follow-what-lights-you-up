@@ -5,13 +5,11 @@ export const images = {
     "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=2000&q=80",
   desertSun:
     "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?auto=format&fit=crop&w=2000&q=80",
-  // High-resolution verified total solar eclipse with corona ring
-  eclipseSky:
-    "https://images.unsplash.com/photo-1506747958701-808cb3805b0f?auto=format&fit=crop&w=2400&q=85",
-  sunCorona:
-    "https://images.unsplash.com/photo-1506747958701-808cb3805b0f?auto=format&fit=crop&w=2400&q=85",
-  sunFlaring:
-    "https://images.unsplash.com/photo-1511398170181-99e571ad2590?auto=format&fit=crop&w=2400&q=85",
+  // Bespoke high-resolution sun in total solar eclipse with corona
+  eclipseHero: "/images/sun-in-eclipse.png",
+  eclipseSky: "/images/sun-in-eclipse.png",
+  sunCorona: "/images/sun-in-eclipse.png",
+  sunFlaring: "/images/sun-in-eclipse.png",
   templeHeat:
     "https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&w=1600&q=80",
   riverBoat:

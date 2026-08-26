@@ -16,8 +16,8 @@ export default function HomePage() {
   return (
     <>
       <CinematicHero
-        image={images.eclipseSky}
-        imageAlt="The sun in total eclipse"
+        image={images.eclipseHero}
+        imageAlt="The sun in total solar eclipse with glowing corona"
         kicker="August 2, 2027 · Luxor"
         title={
           <>
