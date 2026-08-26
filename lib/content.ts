@@ -18,9 +18,6 @@ export const facts = {
   totality: "6 minutes 23 seconds",
   totalityLand:
     "the longest totality visible from land between 1991 and 2114",
-  nextUs: "March 30, 2033",
-  nextUsPlace: "Alaska only",
-  contiguousUs: "August 2044",
   heat: "100°F–110°F",
   maxGuests: 24,
   minAge: 21,
@@ -353,7 +350,7 @@ export const faqs = [
   },
   {
     q: "Why 6 minutes 23 seconds matters?",
-    a: "Totality at Luxor runs about 6 minutes 23 seconds — the longest totality visible from land between 1991 and 2114. The next total solar eclipse on U.S. soil after 2027 is March 30, 2033, Alaska only. The contiguous United States waits until August 2044.",
+    a: "Totality at Luxor runs about 6 minutes 23 seconds — the longest totality visible from land between 1991 and 2114.",
   },
   {
     q: "Do I need a visa and insurance?",
@@ -377,12 +374,16 @@ export const journalPosts = [
     place: "Mallorca",
     image: images.mallorca,
     excerpt:
-      "Spain was not a product. It was the night four people understood the company they were going to build.",
+      "What began as an extraordinary trip became something unexpectedly symbolic. We literally traveled across the world to follow the light.",
     body: [
-      "On August 12, 2026, in Mallorca, the moon took the sun for a handful of minutes. The four of us were not operating a trip. We were standing in a field with people we had chosen carefully, and then the sky did what the sky does.",
+      "Follow What Lights You Up began as a philosophy long before it became a company. A belief in paying attention to the things that create energy, curiosity and that unmistakable feeling of being fully alive — and having the courage to move toward them. Sometimes that has meant music. Sometimes creativity. Sometimes travel. Sometimes saying yes to an experience without knowing exactly where it might lead. That is the light we follow.",
+      "Then came Spain.",
+      "On August 12, 2026, three founding members traveled to Mallorca, Spain to witness a total solar eclipse in the path of totality from the Mediterranean Sea. What began as an extraordinary trip became something unexpectedly symbolic. We literally traveled across the world to follow the light. And when we stood beneath totality, the philosophy we'd already been living suddenly had a physical expression.",
+      "The light changed. The temperature changed. The world seemed to become still. For a few extraordinary minutes, we stood inside an event so much larger than ourselves and everything it had taken to get there suddenly found its meaning.",
+      "The experience awakened something different for each of us: an appetite for more wonder and discovery, the urge to share with loved ones or maybe it's a deep feeling of gratitude. Some trips promise to be an escape from your life, this trip is about feeling completely awake inside of yours.",
+      "And that raised the question that became the beginning of the company: Where does the light go next?",
       "The eclipse lasted for minutes. The feeling didn't.",
-      "That is the origin. Not a pitch deck. A symbolic night that made the philosophy obvious: curate everything, script nothing. Protect the moment. Let people be changed by it.",
-      "Follow the Light is the annual expression of that night. Different destination. Different journey. Same sun.",
+      "We expected it to be spectacular. We weren't prepared for how it would feel.",
     ],
   },
   {
@@ -395,7 +396,6 @@ export const journalPosts = [
       "The longest totality visible from land between 1991 and 2114 is not a marketing line. It is an astronomical fact. We built a company around it.",
     body: [
       "Totality at Luxor on August 2, 2027 runs about 6 minutes 23 seconds. That is the longest totality visible from land between 1991 and 2114.",
-      "The next total solar eclipse on U.S. soil after 2027 is March 30, 2033 — Alaska only. The contiguous United States waits until August 2044.",
       "We do not compete with that hour. Witness is a pillar because the rest of the journey exists to deliver you to the sky, unhurried and unprogrammed, and then to hold you after.",
       "The celestial event chooses the destination. We create the extraordinary journey around it.",
     ],
@@ -419,11 +419,12 @@ export const journalPosts = [
 export const philosophy = {
   kicker: "In pursuit of aliveness",
   paragraphs: [
-    "There is a part of us that comes alive. Not the part that performs a holiday. The part that notices. The part that goes quiet when the light changes.",
-    "Most travel is a sequence of arrangements. We are not in the arrangement business. We are in the business of interrupting the ordinary — destination, hospitality, food, music, adventure, culture, and a carefully curated community, held in one frame.",
-    "The philosophy is simple enough to print on a card: curate everything, script nothing. We choose the vessel, the table, the people, the hour of the sky. We do not choreograph your feeling. That belongs to you.",
-    "Spain taught us the difference. On August 12, 2026, in Mallorca, the eclipse lasted for minutes. The feeling didn't. The company exists because that distinction is the whole point.",
-    "Follow the Light is the annual form. The celestial event chooses the destination. We create the extraordinary journey around it. Different destination. Different journey. Same sun.",
+    "We believe extraordinary experiences can interrupt the ordinary rhythm of life and remind us how much there still is to discover — about the world and, sometimes, about ourselves.",
+    "Everyday life asks us to be responsible: to build careers, raise families, meet deadlines, manage calendars and take care of the people who depend on us. Those things matter. But so does the part of us that comes alive. The curious part of us. The courageous part. The part that wants to experience something new, follow an unexpected pull, hear the music, take the trip, gather around the table, look up at the sky or simply say yes when something inside us whispers, go.",
+    "Follow What Lights You Up exists for that part — not as an escape from life, but as an invitation to feel fully awake inside it.",
+    "Our principle is simple: curate everything, script nothing. We obsess over the details without manufacturing the emotional outcome. The itinerary creates possibility; you decide what the experience means.",
+    "On August 12, 2026, three founding members traveled to Mallorca, Spain to witness a total solar eclipse in the path of totality from the Mediterranean Sea. The light changed. The temperature changed. For a few extraordinary minutes, we stood inside an event so much larger than ourselves. The eclipse lasted for minutes. The feeling didn't.",
+    "That question transformed a personal philosophy into a travel concept: Where does the light go next? Follow What Lights You Up became the company. Follow the Light became its first journey.",
     "We create the conditions for awe. What happens from there belongs to you.",
   ],
 } as const;

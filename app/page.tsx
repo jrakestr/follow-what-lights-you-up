@@ -16,8 +16,8 @@ export default function HomePage() {
   return (
     <>
       <CinematicHero
-        image={images.nileDawn}
-        imageAlt="Dawn light on the Nile"
+        image={images.eclipseSky}
+        imageAlt="The sun in total eclipse"
         kicker="August 2, 2027 · Luxor"
         title={
           <>
@@ -69,10 +69,7 @@ export default function HomePage() {
             {facts.totality} of totality at Luxor.
           </h2>
           <p className="mt-8 max-w-2xl font-body text-lg leading-[1.75] text-paper/80">
-            The longest totality visible from land between 1991 and 2114. The
-            next total solar eclipse on U.S. soil after 2027 is {facts.nextUs} —{" "}
-            {facts.nextUsPlace}. The contiguous United States waits until{" "}
-            {facts.contiguousUs}.
+            {facts.totalityLand}.
           </p>
           <div className="mt-10">
             <TextLink href="/egypt-2027" light>

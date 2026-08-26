@@ -35,9 +35,6 @@ export default function EgyptPage() {
         <p className="tracking-data text-sm text-paper/80">From $14,500</p>
         <p className="mt-4 max-w-xl font-body text-lg leading-[1.7] text-paper/85">
           Totality at Luxor runs about {facts.totality} — {facts.totalityLand}.
-          The next total solar eclipse on U.S. soil after 2027 is {facts.nextUs}{" "}
-          ({facts.nextUsPlace}). The contiguous United States waits until{" "}
-          {facts.contiguousUs}.
         </p>
         <div className="mt-10 flex flex-wrap gap-8">
           <TextLink href="/apply" light>
