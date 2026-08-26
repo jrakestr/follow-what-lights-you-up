@@ -44,4 +44,5 @@ export const images = {
     "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
   founderStately:
     "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80",
+  footerHorizon: "/images/footer-nile-twilight.png",
 } as const;
